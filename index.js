@@ -4,11 +4,9 @@ const app = express()
 
 app.use(express.json());
 
-const movies = require("./sample.json")
 
-app.get('/',(req, res)=>{
-    res.json(movies);
-})
+
+app.use("/",require("./movies"));
 
 
 app.listen(3000)
