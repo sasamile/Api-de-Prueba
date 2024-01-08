@@ -1,8 +1,14 @@
-import express from 'express'
+const express = require("express");
 
 const app = express()
 
-app.use("/",require("./movies"));
+app.use(express.json());
+
+const movies = require("./sample.json")
+
+app.get('/',(req, res)=>{
+    res.json(movies);
+})
 
 
 app.listen(3000)
