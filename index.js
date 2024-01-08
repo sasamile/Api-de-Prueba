@@ -6,7 +6,9 @@ app.use(express.json());
 
 
 
-app.use("/",require("./movies"));
+app.use("/1",require("./movies"));
+app.use("/2",require("./movies1"));
+
 
 
 app.listen(3000)

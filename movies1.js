@@ -1,12 +1,11 @@
 const {Router} = require('express')
 const router = Router();
 
-const movies = require("./sample.json");
+const movies1 = require("./sample1.json")
 
  
-
 router.get("/",(req , res)=>{
-    res.json(movies);
+    res.json(movies1);
 
 });
 
