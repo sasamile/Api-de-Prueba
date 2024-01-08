@@ -2,9 +2,7 @@ import express from 'express'
 
 const app = express()
 
-app.get('/',(req, res)=>{
-    res.send('Hello world')
-})
+app.use("/",require("./movies"));
 
 
 app.listen(3000)
