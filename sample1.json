@@ -1,19 +1,38 @@
 [
     {
         "id":1,
-        "title":"zackt",
-        "director":"James 5wfgn",
-        "year":1945,
-        "url":"https://i.ibb.co/mDYsmJv/Kiet-Multiverso.webp",
-        "reating":"8.5"
+        "name":"Zak",
+        "habilidades":"Disparo Zet-Sen",
+        "imagen":"https://ibb.co/G2LY9zg",
+        "url":"https://ibb.co/fq4wtkj"
+        
     },
     {
         "id":2,
-        "title":"Tgtrbrt",
-        "director":"ctrbwr",
-        "year":1986,
-        "url":"https://vignette.wikia.nocookie.net/campeones-sendokai/images/c/c7/Zak-bkg.png/revision/latest/scale-to-width-down/608?cb=20130611234138&path-prefix=es",
-        "reating":"9.5"
+        "name":"Cloe",
+        "habilidades":"Visión Yao-Sen",
+        "imagen":"https://ibb.co/1L8jWqd",
+        "url":"https://ibb.co/RNyRwVw"
+        
+    },
+    {
+        "id":3,
+        "name":"Fenzy",
+        "habilidades":"Estelar Tai-Sen",
+        "imagen":"https://ibb.co/vvKYJ2L",
+        "url":"https://ibb.co/55jp62V"
+        
+    },
+    {
+        "id":4,
+        "name":"Kiet",
+        "habilidades":"Escudo Coa-Sen",
+        "imagen":"https://ibb.co/smDShj5",
+        "url":"https://ibb.co/1qH22Fx"
+        
     }
+   
+   
+  
     
 ]
